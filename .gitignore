@@ -1,0 +1,11 @@
+.vs/
+LogCabin/LogCabin.csproj.user
+LogCabin/App_Data/umbraco.config
+LogCabin/App_Data/Logs/
+LogCabin/App_Data/NuGetBackup/
+LogCabin/App_Data/TEMP/
+LogCabin/bin/
+LogCabin/obj/
+LogCabin/Umbraco/
+LogCabin/Umbraco_Client/
+packages/
