@@ -1,0 +1,20 @@
+﻿<umb-box>
+    <umb-box-header title="this is a title"></umb-box-header>
+    <umb-box-content>
+        <h4>Add the text you wish to save in the Log file in the text box below and hit save when you are done. </h4>
+        <umb-editor-footer>
+
+            <textarea></textarea>
+            <br/>
+            <umb-button action="vm.clickButton()"
+                        type="button"
+                        button-style="success"
+                        state="vm.buttonState"
+                        shortcut="ctrl+c"
+                        label="Write to log"
+                        disabled="vm.buttonState === 'busy'">
+            </umb-button>
+
+        </umb-editor-footer>
+    </umb-box-content>
+</umb-box>

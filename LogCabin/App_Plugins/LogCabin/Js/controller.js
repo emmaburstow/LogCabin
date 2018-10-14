@@ -1,15 +1,25 @@
 ﻿angular.module('umbraco').controller('LogCabin.ErrorNotificationsController',
-    ['$scope', '$controller', 'notificationsService',
-        function ($scope, $controller, notificationsService) {
+    ['$scope', '$controller', 'notificationsService', 'dialogService',
+        function ($scope, $controller, notificationsService, dialogService) {
 
-            console.log("im being hit");
+            console.log($scope.notification);
+            
+            notificationsService.add({
+                headline: "logcabin headline",
+                message: "logcabin message",
+                type: "warning",
+                //view: "/App_Plugins/LogCabin/views/LogCabin.html",
+                sticky: true
+            })
 
-            // now apply our LogCabin functionality
-            notificationsService.success("LogCabin", "We have hit our LogCabin custom success!");
+            $scope.addEntry = function () {
 
-            notificationsService.warning("LogCabin", "We have hit our LogCabin custom warning!");
-
-            notificationsService.error("LogCabin", "We have hit our LogCabin custom error!");
+                dialogService.open({ template: '/App_Plugins/LogCabin/views/ErrorLogDialog.html', show: true, callback: done });
+                function done(data){
+                    //The dialog has been submitted 
+                    //data contains whatever the dialog has selected / attached
+                }     
+            }
 
         }
 ]);
