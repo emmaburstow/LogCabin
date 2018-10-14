@@ -1,0 +1,9 @@
+﻿{
+   javascript: [
+       '~/App_Plugins/LogCabin/js/controller.js',
+	   '~/App_Plugins/LogCabin/js/interceptor.js'
+   ],
+   css: [
+       '~/App_Plugins/LogCabin/css/logcabin.css'
+   ]
+}

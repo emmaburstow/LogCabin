@@ -1,0 +1,9 @@
+﻿{
+    javascript: [
+		'~/App_Plugins/Skrift/interceptor.js',
+    	'~/App_Plugins/Skrift/controller.js'
+    ],
+    css : [
+      '~/App_Plugins/Skrift/styles.css'
+    ]
+}

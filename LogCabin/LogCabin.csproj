@@ -252,6 +252,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\LogCabin\css\LogCabin.css" />
+    <Content Include="App_Plugins\LogCabin\Js\controller.js" />
+    <Content Include="App_Plugins\LogCabin\Views\LogCabin.html" />
+    <Content Include="App_Plugins\LogCabin\Js\interceptor.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -276,6 +280,32 @@
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Umbraco\Js\app.dev.js" />
+    <Content Include="Umbraco\Js\app.js" />
+    <Content Include="Umbraco\Js\canvasdesigner.loader.js" />
+    <Content Include="Umbraco\Js\dualSelectBox.js" />
+    <Content Include="Umbraco\Js\guiFunctions.js" />
+    <Content Include="Umbraco\Js\init.js" />
+    <Content Include="Umbraco\Js\install.loader.js" />
+    <Content Include="Umbraco\Js\installer.app.js" />
+    <Content Include="Umbraco\Js\loader.dev.js" />
+    <Content Include="Umbraco\Js\routes.js" />
+    <Content Include="Umbraco\Js\umbraco.canvasdesigner.js" />
+    <Content Include="Umbraco\Js\umbraco.controllers.js" />
+    <Content Include="Umbraco\Js\umbraco.directives.js" />
+    <Content Include="Umbraco\Js\umbraco.filters.js" />
+    <Content Include="Umbraco\Js\umbraco.installer.js" />
+    <Content Include="Umbraco\Js\umbraco.resources.js" />
+    <Content Include="Umbraco\Js\umbraco.security.js" />
+    <Content Include="Umbraco\Js\umbraco.services.js" />
+    <Content Include="Umbraco\Js\umbracoCheckKeys.js" />
+    <Content Include="Umbraco\Js\UmbracoSpeechBubble.js" />
+    <Content Include="Umbraco\Js\UmbracoSpeechBubbleBackEnd.js" />
+    <Content Include="Umbraco\Js\UmbracoSpeechBubbleInit.js" />
+    <Content Include="Umbraco\Js\umbracoUpgradeChecker.js" />
+    <Content Include="Umbraco\Js\xmlextras.js" />
+    <Content Include="Umbraco\Js\xmlRequest.js" />
+    <Content Include="Umbraco\Views\components\notifications\umb-notifications.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -305,6 +335,7 @@
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
+    <Content Include="App_Plugins\LogCabin\package.manifest" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -317,6 +348,7 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="Umbraco\Js\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -328,6 +360,7 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
